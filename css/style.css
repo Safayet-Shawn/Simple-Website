@@ -1,0 +1,365 @@
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+	font-family: 'Josefin Sans', sans-serif;
+}
+.row{
+	padding-top:25px;
+	padding-bottom:25px;
+}
+/*...........................................................................LOGO of Header Area..................................................................*/
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+}
+.logo{
+	height:25px;
+}
+/*..............................................................................Slider............................................................................*/
+.carousel-inner img{
+	width:100%;
+	height:90vh;
+}
+/*...............................................................................about.............................................................................*/
+.about{
+	padding-bottom:50px;
+}
+.about h3::after {
+
+    content: '';
+    width: 170px;
+    height: 3px;
+    display: block;
+    background: #007bff;
+    margin: 20px auto 5px;
+
+}
+.abt-img{
+	position:relative;
+}
+.p{
+	position:absolute;
+	bottom:10%;
+	margin:0px auto;
+	left:0%;
+	right:0%;
+	color:#fff;
+	
+}
+.abt-img img{
+	width:100%;
+	height:350px;
+	filter:grayscale(1);
+	cursor:pointer;
+}
+.abt-img img:hover{
+	filter:grayscale(0);
+}
+.abt-p{
+	font-size:20px;
+	padding:10px;
+}
+/*...............................................................................Service Area.......................................................................*/
+.service{
+	background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(../image/38.jpg);
+	background-attachment:fixed;
+	background-position:center;
+	background-size:cover;
+	padding-bottom:50px;
+	padding-top:50px;
+}
+.service .col-md-4
+{
+	padding-bottom:10px;
+	padding-top:10px;
+}
+.service h1{
+	font-size:30px;
+	color:white;
+}
+.service h1::after{
+	content:'';
+	width:170px;
+	height:3px;
+	margin:20px auto 15px;
+	display:block;
+	background:#fff;
+}
+.card img{
+	width:100%;
+	height:200px;
+}
+
+.card-body h3{
+	font-size:28px;
+	font-weight:bold;
+	color:#555
+}
+.card-body p{
+	font-size:15px;
+	font-weight:300;
+	letter-spacing:2px;
+	color:gray;
+}
+.list-group i{
+	padding-left:15px;
+	font-size:25px;
+	color:#007bff;
+	cursor:pointer;
+	transition:1s ease;
+}
+.list-group i:hover{
+	transform:rotate(360deg);
+}
+/*...............................................................................image gallary..............................................................................*/
+.gallary{
+	background:#efefef;
+	padding-bottom:50px;
+	padding-top:50px;
+}
+.gallary h1{
+	font-size:30px;
+	color:#555;
+}
+.gallary h1::after{
+	margin:20px auto 10px;
+	content:'';
+	width:190px;
+	height:3px;
+	display:block;
+	background:#007bff;
+}
+#lightgallery img{
+	padding:40px;
+	width:250px;
+	height:160px;
+}
+/*.................................................................................price plan..............................................................................*/
+.price{
+	padding-bottom:50px;
+	padding-top:50px;
+	background:#efefef;
+}
+.price h1{
+	font-size:30px;
+}
+.price h1::after{
+	content:'';
+	margin:20px auto 10px;
+	width:170px;
+	height:3px;
+	display:block;
+	background:#007bff;
+}
+.single-price{
+	background:#fff;
+	box-shadow:0 0 15px 5px #ccc; 
+}
+.single-price:hover{
+	box-shadow:0 0 20px 5px #007bff; 
+}
+.price-head{
+	background:#007bff;
+	padding-top:15px;
+	padding-bottom:15px;
+}
+.price-head h2{
+	font-size:40px;
+	color:#fff;
+	padding-top:10px;
+	text-align:center;
+}
+.price-head p{
+	font-size:30px;
+	color:#fff;
+	padding-top:10px;
+	text-align:center;
+}
+.price-head span{
+	font-size:18px;
+	color:#fff;
+	padding-top:10px;
+	text-align:center;
+}
+.price-content{
+	padding-top:15px;
+	padding-bottom:15px;
+}
+.price-content li{
+	list-style:none;
+	display:block;
+	padding:10px;
+	border-bottom:1px solid #555;
+}
+.price-content li:last-child{
+	border:none;
+}
+.price-content i{
+	margin-right:8px;
+	font-size:15px;
+}
+ .fa-check-circle{
+	color:green;
+}
+ .fa-times-circle{
+	
+	color:red;
+}
+.price-buttom{
+	text-align:center;
+	padding:15px 15px 30px;
+}
+.price-buttom button{
+	padding:15px 50px;
+	background:#007bff;
+	font-size:18px;
+}
+
+/*......................................................................................Team Member............................................................................*/
+.team{
+	padding-top:50px;
+	padding-bottom:50px;
+	background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../image/59.jpg);
+	background-position:center;
+	background-size:cover;
+	background-attachment:fixed;
+}
+.team h1{
+	font-size:30px;
+	color:#fff;
+}
+.team h1::after{
+	content:'';
+	width:170px;
+	height:3px;
+	display:block;
+	background:#fff;
+	margin:20px auto 20px;
+}
+.team .col-md-3{
+	margin:40px auto 20px;
+}
+.user{
+	padding:70px 10px 10px;
+	background:#efefef;
+	cursor:pointer;
+	box-shadow:0 0 9px 5px #333;
+	border-radius:5px;
+}
+.user img{
+	top:-40px;
+	left:36%;
+	border:10px solid #fff;
+	border-radius:50%;
+	width:120px;
+	height:120px;
+	position:absolute;
+}
+.user p{
+	font-size:14px;
+	font-weight:300;
+	padding-top:40px;
+	text-align:center;
+	letter-spacing:3px;
+	color:#555;
+}
+.user h3{
+	font-size:24px;
+	font-weight:bold;
+	padding-top:40px;
+	text-align:center;
+	color:#007bff;
+}
+.user h2{
+	font-size:10px;
+	font-weight:bold;
+	text-align:center;
+	padding-bottom:40px;
+	color:#gray;
+}
+/*.....................................................................................contact us...........................................................................*/
+.contact{
+	padding-bottom:50px;
+	padding-top:50px;
+}
+.contact h1{
+	text-align:center;
+	font-size:30px;
+	font-weight:bold;
+}
+.contact h1::after{
+	content:'';
+	margin:20px auto 10px;
+	width:170px;
+	text-align:center;
+	height:3px;
+	background:#007bff;
+	display:block;
+}
+.contact .col-md-6{
+	margin-top:20px;
+}
+.address p{
+	display:block;
+	border:1px solid #999;
+	font-size:16px;
+	padding-top:5px;
+	padding-bottom:5px;
+	border-radius:5px;
+	color:#555;
+}
+.address span{
+	padding-left:5px;
+	font-weight:bold;
+}
+.address i{
+	font-size:15px;
+	color:#007bff;
+	padding-left:10px;
+	padding-right:10px;
+}
+/*......................................................................................footer area...........................................................................*/
+.footer{
+	padding-top:50px;
+	padding-bottom:50px;
+	background:#555;
+	margin-bottom:0px;
+}
+
+.footer li{
+	display:block;
+	list-style:none;
+	padding:10px;
+	font-size:16px;
+	font-weight:bold;
+	border-bottom:1px solid #333;
+}
+.footer li:first-child{
+	font-size:20px;
+	font-weight:bold;
+	color:#999;
+}
+.footer li:last-child{
+	border:none;
+}
+.footer p{
+	color:#fff;
+	font-size:14px;
+	font-weight:300;
+	padding:20px;
+}
+/*................................................................................................Arrow......................................................................*/
+.top{
+	position:fixed;
+	bottom:60px;
+	font-size:30px;
+	right:30px;
+	opacity:0.8;
+	display:none;
+}
+@media all and (max-width:400px){
+	.top{
+		right:15px;
+		font-size:20px;
+	}
+}
